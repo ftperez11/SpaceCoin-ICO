@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.5.0",
+    "ethers": "^5.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
